@@ -150,3 +150,9 @@ nav ul li a:hover {
 	margin: 5px 0;
 	text-align: left;
 }
+
+.calc-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {
+  .col-@{class}-@{index} {
+   width: 20%;
+  }
+}
