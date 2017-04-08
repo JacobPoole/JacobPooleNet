@@ -142,7 +142,11 @@ nav ul li a:hover {
 }
 
 .fivesize{
-	width = 20%
+	width = 20%;
+}
+
+.col-md-3 {
+	width = 20%;
 }
 
 /* End of Navbar css */
