@@ -145,8 +145,10 @@ nav ul li a:hover {
 	width = 20%;
 }
 
-.col-md-3 {
-	width = 20%;
+@media (min-width: 992px){
+	.col-md-3 {
+		width = 20%;
+	}
 }
 
 /* End of Navbar css */
