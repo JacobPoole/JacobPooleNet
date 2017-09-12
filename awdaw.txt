@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<title>Jacob Poole</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url("./Files/Background.jpg")}
+.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+</style>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Jacob Poole</h1>
+    <h2>Always Driven To Help Others</h2>
+    <h2><b>Computer Science, UC Riverside</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">About Me</a>
+    <a href="#cal" style="width:25%" class="w3-bar-item w3-button">Calendar</a>
+    <a href="./Files/JacobPoole_Resume.pdf" style="width:25%" class="w3-bar-item w3-button">Resume</a>
+    <a href="https://www.linkedin.com/in/jacob-poole/" style="width:25%" class="w3-bar-item w3-button w3-hover-black">LinkedIn</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>About Jacob</b></h1>
+    <img class="w3-round w3-grayscale-min" src="./Files/Prof Pic.jpg" style="width:100%;margin:32px 0">
+    <p><i>&nbsp&nbsp&nbsp I'm a second year computer science major at the University of California Riverside. 
+	My emphasis is in embedded systems and I love to create and play with robots. I'm very involved on campus 
+	with the organizations many of which include the Society of Women Engineers (SWE), Institute of Electrical and Electronics Engineers (IEEE), Citrus Hack, etc. <br><br>
+        
+        &nbsp&nbsp&nbsp With all of these, I also volunteer and mentor my high school robotics team, FIRST FRC Team 589 Falkon Robotics.
+	 With them competing in the winter for six weeks to design and build a functioning robot for a given game. I mentor
+	them in programming, electronics and driving. <br> <br>
+
+ 	&nbsp&nbsp&nbsp	I've always loved working with kids. That's the reason I ran for outreach chair and program chair in my organizations. In high school, I became a teacher's assistant for a robotics class and fell in love with workign with the kids. Just teaching them about engineering and having the learn from me felt so special. I specifically remember multiple times while working withkids on computer science assignments, I would slowly walk them through their error/problem until they suddenly said the word "OHHH" and finally realize how it works. That's when I know I've succeeded. Whenever I help someone or teach someone, that's the moment that I aim for, the "OH" moment. I'd love to teach in the future to inspire the next generation of engineers, but before I do that I'm very excited to join the workforce and enter the industry in embedded systems.  </i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Contact Me</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2" id="cal">
+    
+    <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;title=Jacob%20Poole%27s%20Calendar&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bejabbers97%40gmail.com&amp;color=%23182C57&amp;src=s74fbvab8no3ol69m8n0bdjfro%40group.calendar.google.com&amp;color=%23B1440E&amp;src=hmlls6aled6kj9jfhgcuam93b0%40group.calendar.google.com&amp;color=%23182C57&amp;src=oun2p3g0hmqjb4n0ac15m7qhec%40group.calendar.google.com&amp;color=%235F6B02&amp;src=klminj9j7er11a44jluatak2pk%40group.calendar.google.com&amp;color=%23875509&amp;src=qa399qm13k04ltvq7knpk2h22s%40group.calendar.google.com&amp;color=%2328754E&amp;src=64j9fu830g91gah2bbbdfuiikc%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="950" frameborder="0" scrolling="no"></iframe> 
+   <!--<div class="w3-display-middle w3-text-white w3-center">
+   <h1 class="w3-jumbo">You Are Invited</h1><br>
+    <h2>Of course..</h2>
+      
+
+  </div>-->
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>More of Me</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="./Files/Fam.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      
+        
+        
+        <div class="w3-half">
+        <h2>Family</h2>
+        <p>Mom and Dad</p>
+        <p>Brother and Sister</p>
+      </div>
+      <div class="w3-half">
+        <h2>Food</h2>
+        <p>Potatoes</p>
+        <p>Chipotle Burritos</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+<!--  <h1>HOPE YOU CAN MAKE IT!</h1>
+  <p class="w3-large">Kindly Respond By January, 2017</p>-->
+  <p class="w3-xlarge">
+    <!--<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Contact Me</button>-->
+        <form method="post" action="mailto:jpool003@ucr.edu" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off"  style="padding:10px 60px">
+        <input type="submit" value="Contact Me" /> 
+        </form>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">Need to contact me?</h1>
+      <p></p>
+      <!--<form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>-->
+      <p><i>Sincerely, John & Jane</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>“It's up to you how far you go. If you don't try, you'll never know!” -Merlin "Sword in the Stone"</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
