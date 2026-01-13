@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Sammyd';
+    src: url('/Sammyd-Regular.woff2') format('woff2'),
+       url('/Sammyd-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Angelinep';
+    src: url('/Angelinep-Regular.woff2') format('woff2'),
+       url('/Angelinep-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
