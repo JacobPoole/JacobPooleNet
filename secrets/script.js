@@ -27,6 +27,7 @@ document.getElementById('yes-button').addEventListener('click', function() {
     setTimeout(() => {
         document.body.style.background = 'linear-gradient(135deg, #ff1493, #ffd700)';
         document.body.style.animation = 'gradientAnimation 2s ease infinite';
+        document.body.style.backgroundSize = '400% 400%';
     }, 10);
 });
 
@@ -63,7 +64,7 @@ document.getElementById('no-button').addEventListener('click', function() {
         this.classList.remove('no-btn');
         this.classList.add('yes-btn');
         
-        document.querySelector('.question-text').textContent = "I knew you'd come around! 😊";
+        document.querySelector('.question-text').textContent = "Oh no! What will you do! 😊";
         
         // Make it behave like the Yes button
         this.onclick = function() {
