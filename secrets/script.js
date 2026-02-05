@@ -1,4 +1,4 @@
-const totalImages = 17;
+const totalImages = 20;
 let currentIndex = 0;
 let noClickCount = 0;
 
